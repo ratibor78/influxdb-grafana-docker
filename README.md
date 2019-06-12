@@ -2,7 +2,7 @@
 
 ![Alt text](https://github.com/ratibor78/influxdb-grafana-docker/blob/master/influxdb-grafana.png?raw=true "Grafana + InfluxDB")
 
-The Docker Compose file for quick setup a monitoring solution based on InfluxDB and Grafana.
+Use Docker Compose for quick setup a monitoring solution based on InfluxDB and Grafana.
 
 This repository contains a simple docker-compose file that will create a local installation
 of InfluxDb + Grafana on your host system. 
@@ -39,3 +39,13 @@ Next step you need to add the InfluxDB as a new data source in Grafana.
 ![Alt text](https://github.com/ratibor78/influxdb-grafana-docker/blob/master/data_source.png?raw=true "Add the new data source for Grafana")
 
 After that you're ready to serve the first incoming request and create Grafana dashboards.
+
+
+Have fun !
+
+License
+----
+
+MIT
+
+**Free Software, Hell Yeah!**
