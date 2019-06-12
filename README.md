@@ -34,7 +34,7 @@ $ docker-compose up -d
 
 Then open server_ip:3000 and login into Grafana with admin:admin credentials for the first time.
 
-Next step you need to add the InfluxDB as a new data source in Grafana. 
+Next step you need to add the InfluxDB as a new data source in Grafana with URL = http://influxdb:8086
 
 ![Alt text](https://github.com/ratibor78/influxdb-grafana-docker/blob/master/data_source.png?raw=true "Add the new data source for Grafana")
 
