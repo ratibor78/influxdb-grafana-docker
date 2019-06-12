@@ -11,9 +11,9 @@ It will expose the InfluxDB on public portt = 8086 and Grafana will be exposed o
 
 ### Installation
 
-1. For installation clone the git repository and run the install.sh script then. 
+1. For quick installation clone the git repository and run the install.sh script then. 
 
-2 .Or you can do it manually with a few steps:
+2. Or you can do it manually with a few steps listed below:
 
 ```
 $ cd influxdb-grafana-docker
