@@ -45,6 +45,7 @@ After that you're ready to serve the first incoming request and create Grafana d
 If you need any additional plugins in Grafana you may install them inside docker container then:
 ```
 $ docker exec -ti grafana /bin/bash 
+
 grafana@e71d851299cb:/usr/share/grafana$ grafana-cli plugins install grafana-worldmap-panel
 
 installing grafana-worldmap-panel @ 0.2.0
