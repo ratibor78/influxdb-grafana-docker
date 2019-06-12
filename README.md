@@ -42,6 +42,24 @@ and database name telegraf with user credentials that you were created.
 After that you're ready to serve the first incoming request and create Grafana dashboards.
 
 
+If you need any additional plugins in Grafana you may install them inside docker container then:
+```
+$ docker exec -ti grafana /bin/bash 
+grafana@e71d851299cb:/usr/share/grafana$ grafana-cli plugins install grafana-worldmap-panel
+
+installing grafana-worldmap-panel @ 0.2.0
+from url: https://grafana.com/api/plugins/grafana-worldmap-panel/versions/0.2.0/download
+into: /var/lib/grafana/plugins
+
+✔ Installed grafana-worldmap-panel successfully 
+
+Restart grafana after installing plugins . <service grafana-server restart>
+
+grafana@e71d851299cb:/usr/share/grafana$ exit
+
+$ docker restart grafana
+```
+
 Have fun !
 
 License
